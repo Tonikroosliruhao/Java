@@ -1,10 +1,3 @@
----
-title: Java实现简易shell
-date: 2020-08-10 16:30:29
-tags: [Linux,Java]
-categories: Linux
----
-
 当前目录：`/home/dawn/JavaLinuxCommand/src/LinuxCommand`
 
 `cd`与`ls`

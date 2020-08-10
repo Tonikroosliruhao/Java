@@ -1,11 +1,3 @@
----
-title: Linux基础命令
-date: 2020-08-02 09:11:06
-img: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1596342680212&di=a6a1db3b00cd95064c7255c96bc8fc23&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2018-01-23%2F5a671aefe78d0.jpg
-tags: [Linux]
-categories: Linux
----
-
 ## Linux基础指令
 
 ### 目录结构
