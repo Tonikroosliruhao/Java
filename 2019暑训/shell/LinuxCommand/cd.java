@@ -2,7 +2,7 @@ package LinuxCommand;
 
 import java.io.*;
 
-public class Cdls {
+public class cd {
 
     static String command;
     static String dirNow;
@@ -24,15 +24,6 @@ public class Cdls {
                     dirNow = fileName;
                     usecd();
                 }
-            } else if (command.startsWith("ls")) {
-                String dirName = command.substring(2).replace(" ", "");
-                if (dirName.equals(" ")) {
-                    File dir = new File(dirNow);
-                    usels(dir);
-                } else {
-                    File dir = new File(dirNow + File.separator + dirName);
-                    usels(dir);
-                }
             } else if (command.startsWith("pwd")) {
                 dirNow = System.getProperty("user.dir");
                 System.out.println(dirNow);
@@ -44,15 +35,5 @@ public class Cdls {
         System.out.println("$" + dirNow);
     }
 
-    public static void usels(File dir) {
-        File[] files = dir.listFiles();
-        if (files != null) {
-            String[] dirContents = dir.list();
-            for (int i = 0; i < dirContents.length; i++) {
-                System.out.println(dirContents[i]);
-            }
-        } else {
-            System.out.println("nullFiles");
-        }
-    }
 }
+
